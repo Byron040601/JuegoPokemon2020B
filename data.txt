@@ -1,0 +1,4 @@
+1,Bernabe,Davila,1725442899,sladorm,5
+2,Juan,Flores,1826452990,sled,2
+3,Abraham,Davila,1827356,Descar,1
+4,Byron,Huaraca,1726241829,Salem,0
