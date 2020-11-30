@@ -11,7 +11,7 @@ public class Water extends Skill {
 
     public Water(int damageS, int damageF) {
         super(damageS, damageF);
-        this.life = 120;
+        this.life = 20;
         this.stamina = 60;
     }
 
@@ -22,6 +22,7 @@ public class Water extends Skill {
     public int getStamina() {
         return stamina;
     }
+ //Calculo de los niveles de estamina
 
     public String atack(int stamin2, int life2, int staminv, int stamin1, int defense) {
         int aux1 = staminaOfTurn(stamin2);
