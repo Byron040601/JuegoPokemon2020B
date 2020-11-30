@@ -2,7 +2,8 @@ package Game;
 
 //Byron Huaraca
 //Jorge Alaba
-//Bernabé Dávila 
+//Bernabé Dávila
+//Karen Hurtado 
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -31,7 +32,7 @@ import javafx.scene.control.ComboBox;
 import javafx.scene.control.TextField;
 
 public class WindowOne {
-
+//Esta es la primera pantalla que sera desplegada
     private Stage window;
     private ArrayList<Person> list;
     private ArrayList<Person> list2;
