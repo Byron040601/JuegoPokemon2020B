@@ -1,8 +1,6 @@
 package Battle;
 
-//Byron Huaraca
-//Jorge Alaba
-//Bernabé Dávila 
+
 
 public class Air extends Skill {
 
