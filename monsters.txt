@@ -2,3 +2,4 @@ Charizard,fire
 Garchomp,earth
 Staraptor,air
 Blastoise,water
+Pikachu,trueno
