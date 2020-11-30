@@ -4,6 +4,8 @@ package Battle;
 //Jorge Alaba
 //Bernabé Dávila 
 
+
+//Clase Habilidades (contiene el proceso de stamina, ataques,defensas y curacion)
 public class Skill {
 
     private int damageS;
