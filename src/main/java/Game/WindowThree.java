@@ -3,6 +3,7 @@ package Game;
 //Byron Huaraca
 //Jorge Alaba
 //Bernabé Dávila 
+//Karen Hurtado
 
 import Battle.Fire;
 import Battle.Air;
@@ -75,7 +76,7 @@ public class WindowThree {
     private int victories;
     private String nameImage1;
     private String nameImage2;
-
+//Pantalla en donde se reflejara la batalla 
     public WindowThree(Stage window) {
         this.window = window;
         this.airMoves = new ArrayList<>();
