@@ -294,6 +294,11 @@ public class WindowOne {
         }
     }
 
+<<<<<<< Updated upstream
+// Escritura 
+=======
+    //Esta funcion realiza la escritura de todos los datos de la batalla en un archivo de texto
+>>>>>>> Stashed changes
     public void write(String nameJ1, String nameP1, String type1, String nameJ2, String nameP2, String type2) {
         try {
             FileWriter fstream = new FileWriter("validation.txt", true);
@@ -307,6 +312,8 @@ public class WindowOne {
             System.out.println("Error: " + ex.getMessage());
         }
     }
+
+//Lectura de ArrayList
 
     public void readMonsters(ArrayList list, ArrayList list1) {
         try (Scanner scanner = new Scanner(Paths.get("monsters.txt"))) {

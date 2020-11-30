@@ -3,6 +3,7 @@ package Game;
 //Byron Huaraca
 //Jorge Alaba
 //Bernabé Dávila 
+//Karen Hurtado
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -30,7 +31,7 @@ import javafx.stage.Stage;
 import javax.swing.JOptionPane;
 
 public class WindowTwo {
-
+//Esta es la segunda ventana que se revelara para añadir cuentas de jugadores
     private Stage window;
     private Stage warning;
     private Person p;
