@@ -11,8 +11,8 @@ public class Water extends Skill {
 
     public Water(int damageS, int damageF) {
         super(damageS, damageF);
-        this.life = 1200;
-        this.stamina = 600;
+        this.life = 120;
+        this.stamina = 60;
     }
 
     public int getLife() {
