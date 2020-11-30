@@ -247,7 +247,7 @@ public class WindowTwo {
 
         return layout;
     }
-
+//Lectura en archivo data.txt
     public void read(ArrayList list) {
         try (Scanner scanner = new Scanner(Paths.get("data.txt"))) {
             while (scanner.hasNextLine()) {

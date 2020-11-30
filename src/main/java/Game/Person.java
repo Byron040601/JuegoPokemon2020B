@@ -6,6 +6,7 @@ package Game;
 //Karen Hurtado
 
 import javafx.beans.property.SimpleStringProperty;
+//Persona cuenta con atributos; nombre, apellido, identificacion, usuario, id y victorias
 
 public class Person {
 
@@ -15,7 +16,7 @@ public class Person {
     private final SimpleStringProperty user;
     private int id;
     private int victories;
-
+//Datos de la persona
     public Person(int id, String name, String lastName, String identification, String user, int victories) {
         this.name = new SimpleStringProperty(name);
         this.lastName = new SimpleStringProperty(lastName);
@@ -24,6 +25,9 @@ public class Person {
         this.id = id;
         this.victories = victories;
     }
+
+
+// Getter y Setter calse Peron
 
     public void victories() {
         this.victories += 1;
