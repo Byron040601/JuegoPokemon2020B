@@ -9,8 +9,8 @@ public class Air extends Skill {
 
     public Air(int damageS, int damageF) {
         super(damageS, damageF);
-        this.life = 950;
-        this.stamina = 400;
+        this.life = 800;
+        this.stamina = 500;
     }
 
     public int getLife() {

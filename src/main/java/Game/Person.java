@@ -3,6 +3,7 @@ package Game;
 //Byron Huaraca
 //Jorge Alaba
 //Bernabé Dávila 
+//Karen Hurtado
 
 import javafx.beans.property.SimpleStringProperty;
 
