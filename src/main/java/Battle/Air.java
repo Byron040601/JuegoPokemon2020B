@@ -32,7 +32,7 @@ public class Air extends Skill {
         if (staminv > stamin2) {
             staminv = stamin2;
         }
-        double auxd = super.getDamageS() * 0.75;
+        double auxd = super.getDamageS() * 1.5;
         if (defense != 0) {
             life2 = life2 - (int) auxd;
             defense--;
@@ -53,7 +53,7 @@ public class Air extends Skill {
         if (staminv > stamina2) {
             staminv = stamina2;
         }
-        double auxd = super.getDamageF() * 0.75;
+        double auxd = super.getDamageF() * 1.5;
         if (defense != 0) {
             life2 = life2 - (int) auxd;
             defense--;
