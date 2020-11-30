@@ -15,7 +15,7 @@ public class Person {
     private final SimpleStringProperty user;
     private int id;
     private int victories;
-
+//Datos de la persona
     public Person(int id, String name, String lastName, String identification, String user, int victories) {
         this.name = new SimpleStringProperty(name);
         this.lastName = new SimpleStringProperty(lastName);
