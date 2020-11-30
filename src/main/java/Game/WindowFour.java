@@ -24,6 +24,8 @@ import javafx.scene.text.FontPosture;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
+//Pantalla 4 (presentacion de puntos)
+
 public class WindowFour implements ReadInterface {
 
     private Stage window;
@@ -115,6 +117,7 @@ public class WindowFour implements ReadInterface {
 
     }
 
+   //Lectura de nicks usuarios
     @Override
     public ObservableList read() {
         try (Scanner scanner = new Scanner(Paths.get("data.txt"))) {
@@ -135,6 +138,7 @@ public class WindowFour implements ReadInterface {
         return this.itemsOne;
     }
 
+  //Lectura de puntaje ususarios
     @Override
     public ObservableList readTwo() {
         try (Scanner scanner = new Scanner(Paths.get("data.txt"))) {
